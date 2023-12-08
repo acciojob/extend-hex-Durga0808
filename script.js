@@ -3,12 +3,10 @@ const extendHex = (shortHex) => {
 	let hexcode="#"
 	let n=shortHex.length;
     for (let i = 0; i < n; i++) {
-   if(shortHex[i]!="#"){
-  //console.log(shortHex[i]);
-        hexcode+=shortHex[i]+shortHex[i];
-        //console.log(hexcode)
-        }
-}
+	   if(shortHex[i]!="#"){
+	        hexcode+=shortHex[i]+shortHex[i];
+	    }
+	}
     return hexcode;
 	
 };
